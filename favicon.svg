@@ -1,17 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" fill="#0a6a78"/>
-  <g transform="translate(-28.9 -42.1) scale(1.1)">
-    <!-- coude 90° à brides -->
-    <path d="M130 360H250A100 100 0 0 0 350 260V150" fill="none" stroke="#ffffff" stroke-width="76"/>
-    <path d="M118 360H250A100 100 0 0 0 350 260V138" fill="none" stroke="#06444d" stroke-width="40"/>
-    <!-- brides -->
-    <rect x="104" y="296" width="30" height="128" rx="4" fill="#ffffff"/>
-    <rect x="286" y="118" width="128" height="30" rx="4" fill="#ffffff"/>
-    <g fill="#0a6a78">
-      <circle cx="119" cy="312" r="5"/><circle cx="119" cy="408" r="5"/>
-      <circle cx="302" cy="133" r="5"/><circle cx="398" cy="133" r="5"/>
-    </g>
-    <!-- axe du tube -->
-    <path d="M140 360H250A100 100 0 0 0 350 260V160" fill="none" stroke="#e3a255" stroke-width="6" stroke-dasharray="26 10 6 10"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e8a9a"/><stop offset="1" stop-color="#0b3f55"/></linearGradient></defs>
+<rect width="512" height="512" rx="112" fill="url(#g)"/>
+<g fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity=".95">
+<path d="M120 190V120h70M392 190V120h-70M120 322v70h70M392 322v70h-70"/></g>
+<g fill="#fff"><path d="M214 176h60a42 42 0 0 1 42 42v118h-62V238a2 2 0 0 0-2-2h-38z" opacity="0"/></g>
+<path d="M196 214h74a46 46 0 0 1 46 46v78" fill="none" stroke="#fff" stroke-width="50" stroke-linecap="butt" stroke-linejoin="round"/>
+<rect x="170" y="186" width="22" height="56" rx="5" fill="#fff"/>
+<rect x="286" y="338" width="60" height="22" rx="5" fill="#fff"/>
+<rect x="96" y="256" width="320" height="12" rx="6" fill="#ffb454"/>
 </svg>

@@ -2,6 +2,9 @@
 
 Numérotation : X.Y (par exemple 2.0).
 
+## 3.6.2
+- Nouvelle icône (scanner + coude). Confirmation avant toute suppression (soudure, ligne, liste, projet). Repères de spool dans les onglets SW/FW (regroupement par spool, champ Spool à l'ajout). Paramètres isométrique : révision et code lus sur le cartouche, bouton pour copier vers les autres ISO.
+
 ## 3.6.1 (scan + spools)
 - Rattachement des soudures aux spools par la géométrie du dessin ; champ Spool modifiable par soudure, colonne Spool dans l'Excel et le .json.
 
