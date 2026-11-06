@@ -1,8 +1,8 @@
-# Calcul poids tuyauterie
+# Calcul poids tuyauterie + scan d'isométriques
 
 Application web pour calculer le poids des tuyauteries : tubes, raccords, brides, vannes. Elle fonctionne dans le navigateur, sans serveur et sans installation. Les données restent sur l'appareil.
 
-**Créé par Kamel Nasralli** · Version 3.6 · Licence MIT
+**Créé par Kamel Nasralli** · Version 3.6.1 (scan + spools) · Licence MIT
 
 ## Fonctionnalités
 
@@ -131,7 +131,7 @@ Cette application est une aide au calcul. Elle ne remplace pas les données du f
 cd poids-tuyauterie
 git init
 git add .
-git commit -m "Version 3.6"
+git commit -m "Version 3.6.1 (scan + spools)"
 git branch -M main
 git remote add origin https://github.com/VOTRE-COMPTE/poids-tuyauterie.git
 git push -u origin main
@@ -158,3 +158,17 @@ Seules les polices (Barlow Semi Condensed, IBM Plex) sont chargées depuis Googl
 ## Licence
 
 MIT. Copyright (c) 2026 Kamel Nasralli.
+
+## Scanner un isométrique (PDF ou photo)
+
+Bouton **Scanner** : choisissez un PDF scanné ou prenez une photo. L'application lit le cartouche, la liste de matériel et les tampons : cases **Spool N°**, soudures atelier **SW** et soudures chantier **FW**, avec leur numéro manuscrit. Les SW et FW vont dans leurs onglets séparés (et dans l'Excel).
+
+- **Spools** : chaque soudure est rattachée à un spool d'après le tuyau du dessin et les traits qui relient tampons et tuyau. Les FW coupent la ligne. Le champ **Spool** est modifiable ; une case orange signifie « à vérifier ».
+- **Toujours vérifier** les numéros avec la vignette avant d'ajouter. Les numéros et le type SW/FW sont des estimations.
+- La lecture du cartouche et de la liste de matériel (OCR) charge pdf.js et Tesseract depuis un CDN : une connexion Internet est nécessaire pour cette partie.
+
+## Mettre en ligne sur GitHub Pages
+
+1. Créez un dépôt GitHub (par exemple `poids-tuyauterie-scan`) et déposez tous les fichiers de ce dossier à la racine.
+2. Settings → Pages → Source : branche `main`, dossier `/ (root)`.
+3. Ouvrez l'adresse `https://<votre-compte>.github.io/<dépôt>/` sur le téléphone, puis « Ajouter à l'écran d'accueil ». Les boutons photo et PDF fonctionnent là, contrairement à la vue intégrée de l'application Claude.

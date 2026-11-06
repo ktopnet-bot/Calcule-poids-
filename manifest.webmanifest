@@ -1,7 +1,7 @@
 {
-  "name": "Calcul poids tuyauterie",
-  "short_name": "Poids tuyauterie",
-  "description": "Calcul du poids des tubes, raccords, brides et vannes, par isométrique et spool.",
+  "name": "Poids tuyauterie + scan",
+  "short_name": "Poids + scan",
+  "description": "Poids des tuyauteries avec lecture des isométriques scannés (tampons Spool, SW, FW).",
   "lang": "fr",
   "start_url": "./index.html",
   "scope": "./",

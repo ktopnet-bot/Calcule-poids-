@@ -2,6 +2,12 @@
 
 Numérotation : X.Y (par exemple 2.0).
 
+## 3.6.1 (scan + spools)
+- Rattachement des soudures aux spools par la géométrie du dessin ; champ Spool modifiable par soudure, colonne Spool dans l'Excel et le .json.
+
+## 3.7 (version sans scan, autre dépôt)
+- Le scanner devient une application indépendante (« Scanner isométrique »). Ici : l'icône 📷 importe le fichier .json exporté par le scanner (lignes → Assemblage, soudures → onglets SW / FW). Code de lecture retiré (application plus légère).
+
 ## 3.6
 - Scanner : le type SW/FW ne dépend plus de la forme du tampon (estimation à vérifier) ; boutons « + Spool / + SW / + FW » pour les marques écrites à la main ; aperçu de la page scannée.
 
