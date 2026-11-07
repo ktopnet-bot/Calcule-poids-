@@ -2,6 +2,9 @@
 
 Numérotation : X.Y (par exemple 2.0).
 
+## 3.6.6
+- Icône et en-tête en rouge pour distinguer cette version (avec scan) de l'application sans scan.
+
 ## 3.6.5
 - Soudure FW située entre plusieurs spools : le scan retient le repère du spool inférieur (entre 2, 3 et 4 → 2), signalé en orange.
 
