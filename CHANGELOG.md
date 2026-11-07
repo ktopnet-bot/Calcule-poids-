@@ -2,6 +2,9 @@
 
 Numérotation : X.Y (par exemple 2.0).
 
+## 3.6.5
+- Soudure FW située entre plusieurs spools : le scan retient le repère du spool inférieur (entre 2, 3 et 4 → 2), signalé en orange.
+
 ## 3.6.4
 - Longueur des tubes par spool : cotes en expression (=125+125), répartition d'un tube sur plusieurs spools, extrémités Bride SO (épaisseur), Coude forgé SW (cote A de la base B16.11) et Piquage sur tube (demi-Ø du ND principal), longueur nette affichée.
 

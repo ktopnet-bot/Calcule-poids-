@@ -2961,7 +2961,7 @@ function scAssign(st){
       var seen={},r2=(rc2[i]||rc)+Math.round(14*s/G);p=cutP[i]||p;
       for(var yy=Math.max(0,p[1]-r2);yy<=Math.min(gh-1,p[1]+r2);yy++)for(var xx=Math.max(0,p[0]-r2);xx<=Math.min(gw-1,p[0]+r2);xx++){var l3=lab[yy*gw+xx];if(l3&&sp[l3])seen[l3]=1;}
       var all=[];Object.keys(seen).forEach(function(k){sp[k].forEach(function(v){if(all.indexOf(v)<0)all.push(v);});});
-      all.sort(function(a,b){return a-b;});q.sp=all.join('/');q.spq=true;
+      all.sort(function(a,b){return a-b;});q.sp=all.length?String(all[0]):'';q.spq=all.length>1; /* doute : repère du spool inférieur */
     }
   });
 }
