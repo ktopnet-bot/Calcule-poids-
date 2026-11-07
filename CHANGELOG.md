@@ -2,6 +2,12 @@
 
 Numérotation : X.Y (par exemple 2.0).
 
+## 3.6.4
+- Longueur des tubes par spool : cotes en expression (=125+125), répartition d'un tube sur plusieurs spools, extrémités Bride SO (épaisseur), Coude forgé SW (cote A de la base B16.11) et Piquage sur tube (demi-Ø du ND principal), longueur nette affichée.
+
+## 3.6.3
+- Les pastilles de joints (S1, S2…) deviennent J1, J2… pour ne plus être confondues avec les spools. Scan : si l'isométrique ne porte qu'un seul tampon Spool, toutes ses lignes reçoivent ce numéro. Champ spool vide affiché « — ».
+
 ## 3.6.2
 - Nouvelle icône (scanner + coude). Confirmation avant toute suppression (soudure, ligne, liste, projet). Repères de spool dans les onglets SW/FW (regroupement par spool, champ Spool à l'ajout). Paramètres isométrique : révision et code lus sur le cartouche, bouton pour copier vers les autres ISO.
 
